@@ -85,10 +85,75 @@
    border-radius: 15px;
    padding: 20px 65px 20px;
 }
+.imsiclass img {
+   width: 20%;
+}
 
 .imsiclass h4 {
    font-size: 18px;
 }
 .imsiclass p {
    font-size: 14px;
+}
+
+.pointSection {
+   background: url('../imgs/pointbg.png');
+   background-size: cover;
+   background-position: bottom right;
+   padding: 100px 0;
+   color: white;
+}
+
+.cta--btn {
+   padding: 5px 10px;
+   color: white;
+   border: 1px solid white;
+   font-weight: 500;
+   border-radius: 100px;
+   display: inline-block;
+}
+
+.news-images > img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+.news-text p {
+   text-overflow: ellipsis;
+   overflow: hidden;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   display: -webkit-box;
+}
+
+.news--content {
+   border: 1px solid #eee;
+   padding: 0 0 20px 0;
+}
+
+.news-text {
+   padding: 0 20px;
+}
+
+.service img {
+   width: 30%;
+}
+
+footer p {
+   color: #f9fafe;
+}
+
+footer h4 {
+   color: #f9fafe;
+}
+.footer-social {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10%;
+}
+
+.footer-social i {
+   font-size: 2rem;
 }
